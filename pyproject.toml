@@ -5,6 +5,7 @@ description = "A template for data science and machine learning projects"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "gdown>=5.2.0",
     "ipykernel~=6.29.5",
     "ipywidgets~=8.1.5",
     "matplotlib~=3.10.0",
@@ -12,9 +13,11 @@ dependencies = [
     "openpyxl~=3.1.5",
     "pandas~=2.2.3",
     "plotly~=5.24.1",
+    "scikit-activeml[max]>=0.6.1",
     "scikit-learn~=1.6.0",
     "seaborn~=0.13.2",
     "tqdm~=4.67.1",
+    "xgboost>=3.1.1",
 ]
 
 [dependency-groups]
